@@ -10,7 +10,7 @@ This Python script helps you to get notified when the Nintendoworld early access
 4. Update the `COOKIE_STRING` field with the cookie from the `PurchaseTicket.aspx` request header of the Universal selection Nintendo EA date process. You can copy and paste the entire cookie string into the `COOKIE_STRING` field. See image below.
 
 ![image](https://user-images.githubusercontent.com/36856247/226511454-226dafeb-5af1-4ec6-9710-454313438017.png)
-
+```Be aware that this windows must keep open when running the script or the session will expire```
 5. Finally, run the script using the following command:
     
     ```python main.py```
